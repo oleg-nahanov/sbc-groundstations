@@ -2,7 +2,7 @@ name: Build and Release
 on:
   push:
     branches:
-      - master
+      - caddx-vrxpro
     tags:
       # CalVer releases: YY.M, e.g. 26.8 (suffixed tags like 26.8-rc1 build as prereleases)
       - '2*'
